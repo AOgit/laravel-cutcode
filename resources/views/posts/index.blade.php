@@ -9,6 +9,6 @@
         @foreach($posts as $post)
             @include("posts.partials.item", ["post" => $post])
         @endforeach
-        {{-- {{ $posts->links() }} --}}
+        {{ $posts->links() }}
     </div>
 @endsection
